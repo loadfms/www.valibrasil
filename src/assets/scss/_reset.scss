@@ -1,0 +1,24 @@
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+} 
+
+html,body{
+	font-size: 100%;
+	font-family: $font-stack-1;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+html,body,#root,.App {
+    height: 100%;
+}
+
+input, button, submit { border:none; background-color: transparent;} 
+
+.center{
+    text-align: center;
+}
+        
