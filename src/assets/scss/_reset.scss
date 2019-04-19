@@ -22,4 +22,16 @@ input, button, submit { border:none; background-color: transparent;}
 .center{
     text-align: center;
 }
+
+.button{
+    padding: 13px 48px;
+    border-radius: $border-radius;
+    background-color: $red;
+    font-family: $title-font;
+    font-size: 12px;
+    font-weight: 700;
+    color:$white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
         
